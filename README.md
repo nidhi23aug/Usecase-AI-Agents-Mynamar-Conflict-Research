@@ -41,7 +41,7 @@ How has agricultural abandonment changed in conflict-affected parts of Myanmar a
 
 This repository is organized around a sequence of AKD-style agents.
 
-### 1. AKD Literature Search Agent
+### 1. Literature Search Agent
 Purpose:
 - Identify the best AI-assisted literature retrieval tools
 - Run structured searches on agricultural abandonment, conflict, land-use change, Myanmar, displacement, and Earth observation
@@ -50,7 +50,7 @@ Purpose:
 
 Input:
 - research prompts
-- benchmarked AI retrieval tools
+- benchmarked AI retrieval tools [[ Work done here ]]
 - query templates
 
 Output:
