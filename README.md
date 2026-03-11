@@ -5,13 +5,13 @@ An end-to-end AI-driven research and analysis pipeline for studying **agricultur
 This repository is designed to move from:
 
 1. **AI-assisted literature search[[Use the Best AI Tool available]]**
-2. **Research gap identification [[AKD GAP Agent]] **
-3. **Hypothesis selection [[AKD GAP AGENT, Human Selection]] **
-4. **Method design[[Human Designed]] **
-5. **NASA/remote sensing data discovery[[ AKD CMR DATA SEARCH AGENT]] **
-6. **Code discovery and reuse [[AKD CODE SEARCH AGENT]] **
+2. **Research gap identification [[AKD GAP Agent]]**
+3. **Hypothesis selection [[AKD GAP AGENT, Human Selection]]**
+4. **Method design[[Human Designed]]**
+5. **NASA/remote sensing data discovery[[ AKD CMR DATA SEARCH AGENT]]**
+6. **Code discovery and reuse [[AKD CODE SEARCH AGENT]]**
 7. **Implementation in Google Earth Engine (GEE) [[HUMAN SELECTED]]**
-8. **Toward an inference-oriented CARE agent [[FUTURISTIC]] **
+8. **Toward an inference-oriented CARE agent [[FUTURISTIC]]**
 
 ---
 
@@ -21,7 +21,7 @@ Agricultural abandonment is often studied in relation to economics, land-use tra
 
 Myanmar after the 2021 coup offers a critical case for investigating how conflict reshapes agricultural land use and whether remote sensing can detect and characterize abandonment patterns in a fragile, rapidly changing context.
 
-This repository aims to build a reproducible AKD workflow that connects literature, gaps, hypotheses, data, code, and implementation.
+This repository aims to build a reproducible AI-Agentic workflow that connects literature, gaps, hypotheses, data, code, and implementation.
 
 ---
 
