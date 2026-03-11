@@ -43,10 +43,11 @@ This repository is organized around a sequence of AKD-style agents.
 
 ### 1. Literature Search Agent [https://github.com/nidhi23aug/Lit-Search-Tool-Comparison] 
 Purpose:
-- Identify the best AI-assisted literature retrieval tools
+- Identify the best AI-assisted literature retrieval tools available
+- Choose the Best AI- Assisted Lit Search tool for this study.
 - Run structured searches on agricultural abandonment, conflict, land-use change, Myanmar, displacement, and Earth observation
 - Compare retrieval quality and relevance
-- Select a working paper set for downstream reasoning
+- Select a working paper set (5-10 papers) for downstream reasoning
 
 Input:
 - research prompts
