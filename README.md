@@ -11,7 +11,10 @@ This repository is designed to move from:
 5. **NASA/remote sensing data discovery[[ AKD CMR DATA SEARCH AGENT]]**
 6. **Code discovery and reuse [[AKD CODE SEARCH AGENT]]**
 7. **Implementation in Google Earth Engine (GEE) [[HUMAN SELECTED]]**
-8. **Toward an inference-oriented CARE agent [[FUTURISTIC]]**
+8. **Toward an inference-oriented agent using CARE [[Currently Human but FUTURISTIC an Agent]]**
+9. **Writing Paper [[ ]]**
+10. **Review Paper [[ ]]**
+11. **Paper Submission [[ ]]**
 
 ---
 
