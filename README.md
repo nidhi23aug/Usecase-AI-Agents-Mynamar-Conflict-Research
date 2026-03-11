@@ -51,7 +51,7 @@ Purpose:
 
 Input:
 - research prompts
-- benchmarked AI retrieval tools [[ Work done here ]]
+- Use the best benchmarked AI retrieval tools [[ Work done [here](https://github.com/nidhi23aug/Lit-Search-Tool-Comparison) ]]
 - query templates
 
 Output:
