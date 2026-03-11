@@ -12,9 +12,10 @@ This repository is designed to move from:
 6. **Code discovery and reuse [[AKD CODE SEARCH AGENT]]**
 7. **Implementation in Google Earth Engine (GEE) [[HUMAN SELECTED]]**
 8. **Toward an inference-oriented agent using CARE [[Currently Human but FUTURISTIC an Agent]]**
-9. **Writing Paper [[ ]]**
-10. **Review Paper [[ ]]**
-11. **Paper Submission [[ ]]**
+10. **Writing Paper [[ ]]**
+11. **Illustrations [[ AKD Illustration Agents]]**
+12. **Review Paper [[ ]]**
+13. **Paper Submission [[ ]]**
 
 ---
 
