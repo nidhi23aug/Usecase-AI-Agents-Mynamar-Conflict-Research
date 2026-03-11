@@ -1,4 +1,4 @@
-# AKD Agricultural Abandonment in Conflict-Affected Myanmar
+# AI AGENTIC TOOL USE To study the Agricultural Abandonment in Conflict-Affected Myanmar
 
 An end-to-end AI-driven research and analysis pipeline for studying **agricultural abandonment in conflict-affected regions**, starting with **Myanmar after the 2021 coup**.
 
