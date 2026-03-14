@@ -64,6 +64,18 @@ Output:
 - bibliography
 - search logs
 
+| ID | Paper |
+|----|------|
+| P11 | Crawford et al. 2022 – abandonment persistence |
+| P2 | Prishchepov et al. 2025 – RS methods review |
+| P6 | Liu et al. 2025 – abandonment typology |
+| P3 | Goga et al. 2019 – definitions and validation |
+| P8 | Yusoff & Muharam 2015 – phenology detection |
+| P9 | Yusoff et al. 2017 – SAR detection |
+| P7 | Long et al. 2024 – abandonment intensity |
+| P8b | Yin et al. 2018 – Landsat segmentation |
+| P10 | Orontes Basin conflict LULC |
+
 ---
 
 ### 2. AKD GAP Search Agent
