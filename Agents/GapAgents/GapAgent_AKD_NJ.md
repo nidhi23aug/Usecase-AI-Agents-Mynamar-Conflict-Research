@@ -6,9 +6,29 @@ The pipeline uses **OpenAI GAP Agent**, which includes an initial **Summarizer A
 Agent workflow reference:
 https://platform.openai.com/agent-builder/edit?version=draft&workflow=wf_699f24de418c819084a22fa9e32479c10427a51408a83b34
 
+
+# Final Gaps:
+
+### RQ1 — What is the spatiotemporal pattern of cropland abandonment and recultivation in the Myanmar conflict region?
+Derives from: IG1, EG3, EG4
+
+H₀: No detectable change in abandonment/recultivation rates across conflict vs non-conflict periods/areas.
+
+H₁: Abandonment/recultivation rates show detectable temporal shifts aligned with conflict escalation/de-escalation.
+
+Variables/proxies (RS): annual (or seasonal) cropland state; abandonment onset year; recultivation onset year; duration distributions (per pixel/object). 
+
+### RQ2 — How ephemeral is “conflict-linked” abandonment: what are the duration distributions and recultivation half-lives?
+Derives from: IG1, Matrix 1 (A2–A4)
+
+H₀: Abandonment persistence does not differ from non-conflict benchmark areas/time.
+
+H₁: Abandonment persistence differs (shorter or longer) in conflict-affected areas.
+
+
 ---
 
-# Pipeline Overview
+# Full Process---> Pipeline Overview
 
 The workflow progresses through **6 stages**:
 
