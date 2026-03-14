@@ -21,9 +21,6 @@ The workflow progresses through **6 stages**:
 
 Users move to the next stage **only after making a selection decision** at the end of each stage.
 
-```markdown
----
-
 # Stage 0 — Input Processing (Automated)
 Before user interaction begins, the **Summarizer Agent processes the literature corpus**.
 
@@ -325,28 +322,6 @@ RQ2
 
 ---
 
-# Stage 6 — Gap Prioritization
-Identified gaps are ranked into tiers.
-
-### High Priority
-Core gaps required to answer the selected RQs.
-
-Examples:
-- Lack of trajectory-based abandonment studies in conflict zones
-- Need for persistence metrics (half-life)
-
----
-
-### Medium Priority
-Gaps affecting interpretation.
-
-Examples:
-- Definition sensitivity (2 vs 5 years)
-- SAR integration for cloud regions
-- Validation scarcity
-
----
-
 ### Exploratory
 Optional extensions.
 
@@ -362,7 +337,6 @@ The workflow produces:
 - Ranked research gaps
 - Supporting literature evidence
 - Suggested research questions
-- Methodological recommendations
 
 ---
 
@@ -383,10 +357,8 @@ Stage 3 — Gap matrices
 Stage 4 — Gap identification
 ↓
 Stage 5 — Research questions
-↓
-Stage 6 — Gap prioritization
 
-```
+
 
 ---
 
@@ -397,6 +369,5 @@ This pipeline is designed for:
 - literature synthesis
 - systematic review assistance
 - research proposal development
-```
 
 ---
