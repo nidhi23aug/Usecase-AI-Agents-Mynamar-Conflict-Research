@@ -148,6 +148,20 @@ Output:
 - spatial suitability notes
 - access instructions
 
+## Tabular Summary (≥2 datasets)
+
+| Rank | Short Name | Concept ID | 10 m stated in metadata? | Temporal coverage (metadata) | Notes (metadata-only) |
+|------|------------|------------|---------------------------|------------------------------|-----------------------|
+| 1 | SENTINEL-1A_DP_GRD_HIGH | C1214470533-ASF | Not stated; “down to 5 meters” capability described | 2014-04-03 → ongoing | SAR GRD; supports 2018–2025 window |
+| 2 | SENTINEL-1C_DP_GRD_HIGH | C3486566209-ASF | Not stated; “down to 5 meters” capability described | 2025-03-28 → ongoing | SAR GRD; covers 2025 onward |
+| 3 | SENTINEL-1B_DP_GRD_HIGH | C1327985645-ASF | Not stated; “down to 5 meters” capability described | 2016-04-25 → 2021-12-24 | SAR GRD; covers 2018–2021 portion |
+| 4 | urn:eop:VITO | C2207478523-FEDEO | Partly (GSD 10/20/60 m described for L1C; TOC resolution not explicitly stated here) | 2015-07-06 → 2021-12-31 | Sentinel-2 L2A TOC tiles; ends 2021 in metadata |
+| 5 | urn:eop:VITO | C2207478568-FEDEO | Yes (10/20/60 m GSD stated) | 2015-07-06 → 2021-12-31 | Sentinel-2 L1C TOA tiles; ends 2021 |
+| 6 | urn:eop:VITO | C2655129129-FEDEO | Yes (10 m stated) | time_start=1970 placeholder | Title indicates 2020 land cover map |
+| 7 | urn:eop:VITO | C2655129178-FEDEO | Yes (10 m stated) | time_start=1970 placeholder | Title indicates 2021 land cover map |
+| 8 | urn:eop:VITO | C2770608964-FEDEO | Yes (10 m stated) | time_start=1970 placeholder | Title indicates 2020 NDVI percentile composite |
+| 9 | urn:eop:VITO | C2655128870-FEDEO | Yes (10 m stated) | time_start=1970 placeholder | Title indicates 2021 NDVI percentile composite |
+| 10 | urn:eop:VITO | C2734302030-FEDEO | Not stated in returned metadata | time_start=1970 placeholder | Seasonal binary “active cropland” (time/resolution not provided here) |
 ---
 
 ### 5. AKD Code Search Agent
