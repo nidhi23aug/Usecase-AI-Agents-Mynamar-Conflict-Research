@@ -150,11 +150,17 @@ Output:
 
 ## Tabular Summary (≥2 datasets)
 
-| Rank | Short Name | Concept ID | 10 m stated in metadata? | Temporal coverage (metadata) | Notes (metadata-only) |
-|------|------------|------------|---------------------------|------------------------------|-----------------------|
-| 1 | SENTINEL-1A_DP_GRD_HIGH | C1214470533-ASF | Not stated; “down to 5 meters” capability described | 2014-04-03 → ongoing | SAR GRD; supports 2018–2025 window |
-| 2 | SENTINEL-1C_DP_GRD_HIGH | C3486566209-ASF | Not stated; “down to 5 meters” capability described | 2025-03-28 → ongoing | SAR GRD; covers 2025 onward |
-| 3 | SENTINEL-1B_DP_GRD_HIGH | C1327985645-ASF | Not stated; “down to 5 meters” capability described | 2016-04-25 → 2021-12-24 | SAR GRD; covers 2018–2021 portion |
+| Rank | Short Name                    | Concept ID        | Optical?                 | 10 m resolution? | Temporal Coverage              | Primary Metadata Mismatch   |
+| ---- | ----------------------------- | ----------------- | ------------------------ | ---------------- | ------------------------------ | --------------------------- |
+| 1    | TerraScope Sentinel-2 L1C     | C2207478568-FEDEO | Yes                      | Yes (10/20/60 m) | 2015-07-06 → 2021-12-31        | Does not reach 2025         |
+| 2    | TerraScope Sentinel-2 L2A TOC | C2207478523-FEDEO | Yes                      | Not explicit     | 2015-07-06 → 2021-12-31        | 10 m not explicit           |
+| 3    | ESA WorldCover 2020           | C2655129129-FEDEO | Derived optical          | Yes              | Placeholder 1970 (actual 2020) | Single-year map             |
+| 4    | ESA WorldCover 2021           | C2655129178-FEDEO | Derived optical          | Yes              | Placeholder 1970 (actual 2021) | Single-year map             |
+| 5    | WorldCover NDVI 2020          | C2770608964-FEDEO | Optical-derived          | Yes              | Placeholder 1970               | Single-year composite       |
+| 6    | WorldCover NDVI 2021          | C2655128870-FEDEO | Optical-derived          | Yes              | Placeholder 1970               | Single-year composite       |
+| 7    | WorldCereal Active Cropland   | C2734302030-FEDEO | Derived cropland product | Not stated       | Placeholder 1970               | Temporal span not specified |
+| 8    | Sentinel-2 L2A COG (INPE)     | C3108204483-INPE  | Yes                      | Not stated       | 2019-01-10 → 2025-06-25        | Brazil-only                 |
+| 9    | Sentinel-2 L2A 16-Day Cube    | C3108204485-INPE  | Yes                      | Yes              | 2017-01-01 → 2025-06-09        | Brazil-only                 |
  
 ---
 
