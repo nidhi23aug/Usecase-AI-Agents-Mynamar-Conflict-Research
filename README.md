@@ -92,14 +92,17 @@ Purpose:
 - Define a feasible remote sensing method
 - Connect the hypothesis to measurable variables and sensors
 
-Possible hypothesis examples:
-- **H1:** Agricultural abandonment increased in conflict-affected areas of Myanmar after the 2021 coup.
-- **H2:** Areas with greater conflict exposure show stronger transitions from active cropland to fallow or unmanaged vegetation states.
-- **H3:** Multi-sensor time series can distinguish conflict-driven abandonment from short-term fallow cycles.
+Possible RQ and hypothesis:
+
+RQ1 — What is the spatiotemporal pattern of cropland abandonment and recultivation in the Myanmar conflict region after the 2021 coup?
+- H₀: No detectable change in abandonment/recultivation rates across conflict vs non-conflict periods/areas.
+- H₁: Abandonment/recultivation rates show detectable temporal shifts aligned with conflict escalation/de-escalation.
+RQ2 — How ephemeral is “conflict-linked” abandonment: what are the duration distributions and recultivation half-lives?
+- H₀: Abandonment persistence does not differ from non-conflict benchmark areas/time.
+- H₁: Abandonment persistence differs (shorter or longer) in conflict-affected areas.
 
 Possible method directions:
 - optical time-series analysis
-- SAR-based cultivation persistence mapping
 - change-point detection
 - crop activity proxies
 - conflict-exposure stratified analysis
