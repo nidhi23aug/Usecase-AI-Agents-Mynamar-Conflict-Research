@@ -35,14 +35,14 @@ This repository is designed to move through the following stages:
 3️⃣ **Hypothesis selection**
 *(AKD GAP Agent + Human decision)*
 
-4️⃣ **Method design**
+4️⃣ **Code discovery and reuse**
+*(AKD Code Search Agent)*
+
+5️⃣**Method design**
 *(Human-designed scientific methodology)*
 
-5️⃣ **Remote sensing data discovery**
+6️⃣ **Remote sensing data discovery**
 *(AKD CMR Data Search Agent)*
-
-6️⃣ **Code discovery and reuse**
-*(AKD Code Search Agent)*
 
 7️⃣ **Implementation in Google Earth Engine (GEE)**
 *(Currently being implemented by Human)*
