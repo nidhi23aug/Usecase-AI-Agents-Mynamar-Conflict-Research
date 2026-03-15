@@ -6,8 +6,10 @@ An end-to-end AI-driven research and analysis pipeline for studying **agricultur
 Studying Agricultural Abandonment in Conflict-Affected Myanmar. This repository implements an AI-assisted scientific workflow for studying agricultural land abandonment (ALA) in conflict-affected regions, beginning with Myanmar after the 2021 coup.
 
 The project explores how AI agents, remote sensing, and human scientific reasoning can be combined into a reproducible workflow that connects:
-
+```
 literature → research gaps → hypotheses → data → code → analysis → scientific output.
+
+```
 
 The repository is organized around a set of specialized AI research agents, each responsible for a stage of the research process, while core scientific design and implementation remain human-driven.
 
