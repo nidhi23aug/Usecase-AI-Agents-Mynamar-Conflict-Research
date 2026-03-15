@@ -154,16 +154,17 @@ Output:
 ---
 
 ### 4. AKD CMR Data Search Agent
+Documentation- 
+[DataSearch](Agents/DataSearch/DataSearch.md)
 Purpose:
 - Search and shortlist Earth observation datasets relevant to the selected hypothesis and method
 - Link method requirements to available products
 
 Potential data sources:
-- Landsat
-- Sentinel-1
+
 - Sentinel-2
-- MODIS
-- NASA products accessible through CMR
+- Landsat
+- HLS
 - land cover, vegetation, moisture, and disturbance products
 - auxiliary conflict or accessibility layers where appropriate
 
@@ -208,18 +209,40 @@ Output:
 
 ---
 
-### 6. GEE Execution Layer
-Purpose:
-- Implement the selected workflow in Google Earth Engine
-- Build a reproducible, modular analysis pipeline
-- Export maps, summaries, and validation products
+### 6. Human-Led Method Design
+Method design is performed by human researchers.
 
-Potential outputs:
-- annual cultivated area layers
-- abandonment likelihood maps
-- pre/post-coup comparison maps
-- conflict-exposure stratified statistics
-- uncertainty summaries
+The agents support discovery and preparation, but scientific methodology and model design remain human-driven.
+
+The current methodological approach focuses on detecting persistent agricultural land abandonment (ALA) using remote sensing and machine learning.
+
+Key design components include:
+
+Representation of Landscape Structure
+
+High-dimensional Google AlphaEarth embeddings are used to represent landscape structure and land-use signals in satellite imagery.
+
+These embeddings provide a generalized representation of land surface characteristics suitable for machine learning analysis.
+
+Cross-Regional Machine Learning Transfer
+
+A supervised machine-learning model is trained using labeled abandonment samples from Mongolia and China, where reliable training data are available.
+
+The trained model is then transferred to Myanmar using a zero-shot cross-regional inference framework, enabling analysis in a data-scarce environment without retraining.
+
+
+### 7. GEE Execution Layer (Human-Implemented Stage)
+
+All geospatial analysis is implemented by human researchers using Google Earth Engine (GEE).
+The GEE workflow includes:
+satellite data preparation
+embedding generation
+machine-learning inference
+temporal persistence analysis
+cropland classification refinement
+spatial aggregation and mapping
+
+The goal is to produce a reproducible remote-sensing analysis pipeline capable of detecting agricultural land abandonment at high spatial resolution.
 
 ---
 
