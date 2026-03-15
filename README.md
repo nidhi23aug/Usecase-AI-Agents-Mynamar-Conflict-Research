@@ -123,7 +123,7 @@ Output:
 
 ---
 
-### 3. Hypothesis and Method Selection
+### 3. Hypothesis
 Purpose:
 - Choose one primary hypothesis
 - Define a feasible remote sensing method
@@ -216,19 +216,32 @@ The agents support discovery and preparation, but scientific methodology and mod
 
 The current methodological approach focuses on detecting persistent agricultural land abandonment (ALA) using remote sensing and machine learning.
 
-Key design components include:
+#### Key design components include:
 
 Representation of Landscape Structure
-
 High-dimensional Google AlphaEarth embeddings are used to represent landscape structure and land-use signals in satellite imagery.
 
 These embeddings provide a generalized representation of land surface characteristics suitable for machine learning analysis.
 
-Cross-Regional Machine Learning Transfer
+#### Cross-Regional Machine Learning Transfer
 
 A supervised machine-learning model is trained using labeled abandonment samples from Mongolia and China, where reliable training data are available.
 
 The trained model is then transferred to Myanmar using a zero-shot cross-regional inference framework, enabling analysis in a data-scarce environment without retraining.
+
+#### Persistence-Based Definition of Abandonment
+
+To rigorously distinguish genuine abandonment from normal fallow cycles, the study applies a three-year persistence rule:
+
+Agricultural land is classified as abandoned only if it remains uncultivated for three consecutive years.
+
+This persistence-based definition aligns with:
+
+- remote-sensing literature on cropland abandonment
+- land governance policies in several countries
+- national guidelines in places such as Malaysia, where land is considered abandoned after three years of non-cultivation
+
+Using persistence criteria reduces the risk of misclassifying temporary fallow as permanent abandonment.
 
 
 ### 7. GEE Execution Layer (Human-Implemented Stage)
