@@ -152,8 +152,42 @@ Output:
 - variable/sensor mapping
 
 ---
+### 4. Human-Led Method Design [Human Designed]
+Method design is performed by human researchers.
 
-### 4. AKD CMR Data Search Agent
+The agents support discovery and preparation, but scientific methodology and model design remain human-driven.
+
+The current methodological approach focuses on detecting persistent agricultural land abandonment (ALA) using remote sensing and machine learning.
+
+#### Key design components include:
+
+Representation of Landscape Structure
+High-dimensional Google AlphaEarth embeddings are used to represent landscape structure and land-use signals in satellite imagery.
+
+These embeddings provide a generalized representation of land surface characteristics suitable for machine learning analysis.
+
+#### Cross-Regional Machine Learning Transfer
+
+A supervised machine-learning model is trained using labeled abandonment samples from Mongolia and China, where reliable training data are available.
+
+The trained model is then transferred to Myanmar using a zero-shot cross-regional inference framework, enabling analysis in a data-scarce environment without retraining.
+
+#### Persistence-Based Definition of Abandonment
+
+To rigorously distinguish genuine abandonment from normal fallow cycles, the study applies a three-year persistence rule:
+
+Agricultural land is classified as abandoned only if it remains uncultivated for three consecutive years.
+
+This persistence-based definition aligns with:
+
+- remote-sensing literature on cropland abandonment
+- land governance policies in several countries
+- national guidelines in places such as Malaysia, where land is considered abandoned after three years of non-cultivation
+
+Using persistence criteria reduces the risk of misclassifying temporary fallow as permanent abandonment.
+
+
+### 5. AKD CMR Data Search Agent
 Documentation- 
 [DataSearch](Agents/DataSearch/DataSearch.md)
 Purpose:
@@ -190,7 +224,7 @@ Output:
  
 ---
 
-### 5. AKD Code Search Agent
+### 6. AKD Code Search Agent
 Purpose:
 - Search for reusable code, workflows, and algorithm patterns
 - Identify existing GEE scripts or open-source implementations relevant to:
@@ -209,57 +243,25 @@ Output:
 
 ---
 
-### 6. Human-Led Method Design
-Method design is performed by human researchers.
-
-The agents support discovery and preparation, but scientific methodology and model design remain human-driven.
-
-The current methodological approach focuses on detecting persistent agricultural land abandonment (ALA) using remote sensing and machine learning.
-
-#### Key design components include:
-
-Representation of Landscape Structure
-High-dimensional Google AlphaEarth embeddings are used to represent landscape structure and land-use signals in satellite imagery.
-
-These embeddings provide a generalized representation of land surface characteristics suitable for machine learning analysis.
-
-#### Cross-Regional Machine Learning Transfer
-
-A supervised machine-learning model is trained using labeled abandonment samples from Mongolia and China, where reliable training data are available.
-
-The trained model is then transferred to Myanmar using a zero-shot cross-regional inference framework, enabling analysis in a data-scarce environment without retraining.
-
-#### Persistence-Based Definition of Abandonment
-
-To rigorously distinguish genuine abandonment from normal fallow cycles, the study applies a three-year persistence rule:
-
-Agricultural land is classified as abandoned only if it remains uncultivated for three consecutive years.
-
-This persistence-based definition aligns with:
-
-- remote-sensing literature on cropland abandonment
-- land governance policies in several countries
-- national guidelines in places such as Malaysia, where land is considered abandoned after three years of non-cultivation
-
-Using persistence criteria reduces the risk of misclassifying temporary fallow as permanent abandonment.
-
-
 ### 7. GEE Execution Layer (Human-Implemented Stage)
 
-All geospatial analysis is implemented by human researchers using Google Earth Engine (GEE).
+Currently this is being Implemented by ***Zaw Thu Htet*** (Toby) from the ***Istituto Universitario di Studi Superiori, Pavia, Italy*** .
+
+All geospatial analysis is to be implemented by human researchers (Toby) using Google Earth Engine (GEE).
 The GEE workflow includes:
-satellite data preparation
-embedding generation
-machine-learning inference
-temporal persistence analysis
-cropland classification refinement
-spatial aggregation and mapping
+- satellite data preparation
+- embedding generation
+- machine-learning inference
+- temporal persistence analysis
+- cropland classification refinement
+- spatial aggregation and mapping
 
 The goal is to produce a reproducible remote-sensing analysis pipeline capable of detecting agricultural land abandonment at high spatial resolution.
 
 ---
 
-### 7. CARE / Inference Agent (Exploratory)
+### 8. CARE / Inference Agent (Exploratory, Future)
+
 Purpose:
 - Move beyond detection toward inference
 - Explore causal reasoning or confidence-aware interpretation
@@ -290,24 +292,32 @@ This makes it a scientifically challenging and societally important setting for 
 
 ## Initial Research Goals
 
-1. Build a reliable literature-search workflow using strong AI retrieval tools.
-2. Select a focused corpus on agricultural abandonment in conflict and fragile settings.
-3. Identify a tractable gap relevant to Myanmar post-coup.
-4. Convert the gap into a testable remote sensing hypothesis.
-5. Match hypothesis needs to available EO datasets and existing code.
-6. Implement a first-pass prototype in GEE.
-7. Document uncertainty, assumptions, and limitations clearly.
+1. Build a reliable AI-assisted literature discovery workflow
+2. Construct a focused research corpus on agricultural abandonment
+3. Identify research gaps(AKD-Gap Search Agent) relevant to conflict-affected agriculture
+4. Convert gaps into testable remote-sensing hypotheses (AKD-Gap Search Agent)
+5. Identify suitable Earth observation datasets (AKD-CMR- Agent)
+6. locate reusable geospatial analysis code (AKD-Code Search Agent) 
+7. implement the remote-sensing workflow in Google Earth Engine (Human driven by Toby)
+8. document assumptions, uncertainty, and limitations
 
 ---
 
 ## Repository Structure
 
 ```text
-docs/               project framing, decisions, hypotheses
-lit_review/         search logs, selected papers, notes, bibliography
-agents/             AKD agent prompts, logic, configs
-data/               metadata, manifests, source inventories
-gee/                Earth Engine scripts and asset references
-notebooks/          exploratory notebooks and prototyping
-src/                reusable code modules
-results/            maps, figures, tables, summaries
+Agents/
+│
+├── DataSearch/
+│   └── DataSearch.md
+│
+├── GapAgents/
+│   ├── GapAgent_AKD_NJ.md
+│   └── Gap_Gemini_Sid.md
+│
+├── LitSearchAgent_Use/
+│   ├── LitSearch Using Google Labs.md
+│   ├── list-of-articles-sid.md
+│   └── test.md
+│
+README.md
