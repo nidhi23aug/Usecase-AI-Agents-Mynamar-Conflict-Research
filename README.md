@@ -52,7 +52,7 @@ This repository is designed to move through the following stages:
 
 9️⃣ **Paper writing**
 
-🔟 **Scientific illustrations**
+🔟 **Scientific illustrations** [By AKD- Illustration Agent]]
 
 1️⃣1️⃣ **Paper review**
 
