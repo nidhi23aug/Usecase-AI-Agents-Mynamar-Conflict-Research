@@ -62,7 +62,7 @@ This repository is designed to move through the following stages:
 
 # 🌍 Project Motivation
 
-Scientific Illustration using [AKD-Illustration Agent](https://github.com/NASA-IMPACT/AKD-Scientific-Illustration-Agent/blob/main/Version2/Readme_v2.md)
+Scientific Illustration using [AKD-Illustration Agent V2 ](https://github.com/NASA-IMPACT/AKD-Scientific-Illustration-Agent/blob/main/Version2/Readme_v2.md)
 
 <p align="center">
 <img src="WorkflowfromIllustrationagentV2.png" width="48%" style="height:400px; object-fit:contain;">
