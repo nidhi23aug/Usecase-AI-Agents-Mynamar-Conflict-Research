@@ -353,6 +353,23 @@ Identify **Earth observation datasets** relevant to the research hypothesis.
 | 9 | Sentinel-2 L2A 16-Day Cube | C3108204485-INPE | Yes | Yes | 2017-01-01 → 2025-06-09 | Brazil-only |
 
 ---
+## ⚠️ Implementation Decision: Why Google Earth Engine (GEE)?
+
+During the initial exploration phase, several repositories and workflows related to **geospatial foundation models (FM)** were evaluated, including Prithvi-EO and other Earth observation ML frameworks.
+
+However, the current implementation was moved to **Google Earth Engine (GEE)** for the following reasons:
+
+- **Limited practical experience with foundation model pipelines** for Earth observation at this stage of the project.
+- **Higher implementation complexity** when working with large-scale FM frameworks that require extensive infrastructure, training pipelines, and dataset preparation.
+- **Ease of implementation and reproducibility** in Google Earth Engine, which already provides:
+  - global satellite data access  
+  - built-in geospatial processing tools  
+  - scalable computation  
+  - rapid prototyping for remote sensing workflows.
+
+Because of these practical considerations, **Google Earth Engine was chosen as the primary implementation environment for the current stage of the project**.
+
+---
 
 # 🌐 7. Google Earth Engine Implementation
 
