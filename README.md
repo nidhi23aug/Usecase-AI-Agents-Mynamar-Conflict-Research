@@ -45,7 +45,7 @@ This repository is designed to move through the following stages:
 *(AKD Code Search Agent)*
 
 7️⃣ **Implementation in Google Earth Engine (GEE)**
-*(Human implemented)*
+*(Currently being implemented by Human)*
 
 8️⃣ **Inference reasoning (CARE framework)**
 *(Future AI agent)*
