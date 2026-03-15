@@ -1,4 +1,4 @@
-# 🌾🤖 AI Agentic Tool Use for entire Research work
+# 🌾🤖 AI Agentic Tool Use for Research work
 
 ## Studying Agricultural Abandonment in Conflict-Affected Myanmar
 
