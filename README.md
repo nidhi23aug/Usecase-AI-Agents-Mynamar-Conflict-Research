@@ -50,9 +50,9 @@ How has agricultural abandonment changed in conflict-affected parts of Myanmar a
 
 ---
 
-## AKD Pipeline
+## AI Agent Pipeline
 
-This repository is organized around a sequence of AKD-style agents.
+This repository is organized around a sequence of AI-agents and humans as its being done in conventional research.
 
 ### 1. Literature Search Agent [https://github.com/nidhi23aug/Lit-Search-Tool-Comparison] 
 Purpose:
