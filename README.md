@@ -2,6 +2,15 @@
 
 An end-to-end AI-driven research and analysis pipeline for studying **agricultural abandonment in conflict-affected regions**, starting with **Myanmar after the 2021 coup**.
 
+## AI Agentic Tool Use
+Studying Agricultural Abandonment in Conflict-Affected Myanmar. This repository implements an AI-assisted scientific workflow for studying agricultural land abandonment (ALA) in conflict-affected regions, beginning with Myanmar after the 2021 coup.
+
+The project explores how AI agents, remote sensing, and human scientific reasoning can be combined into a reproducible workflow that connects:
+
+literature → research gaps → hypotheses → data → code → analysis → scientific output.
+
+The repository is organized around a set of specialized AI research agents, each responsible for a stage of the research process, while core scientific design and implementation remain human-driven.
+
 This repository is designed to move from:
 
 1. **AI-assisted literature search[[Use the Best AI Tool available]]**
@@ -79,6 +88,15 @@ Output:
 ---
 
 ### 2. AKD GAP Search Agent
+Directory
+
+Agents/GapAgents/
+
+Documentation
+
+1) [Gap Agent NJ](Agents/GapAgents/GapAgent_AKD_NJ.md)
+2) [Gap Agent Sid](Gap_Gemini_Sid.md)
+
 Purpose:
 - Read the selected literature corpus
 - Identify what is missing in current research
