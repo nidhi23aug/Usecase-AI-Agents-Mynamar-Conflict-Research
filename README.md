@@ -124,6 +124,7 @@ The workflow integrates **AI automation with human scientific design**.
 ```
 Agents/LitSearchAgent_Use/LitSearch_Using_Google_Labs.md
 ```
+[LitSearch Using Google Lab](Agents/LitSearchAgent_Use/LitSearch_Using_Google_Labs.md) 
 
 ### 🎯 Purpose
 
@@ -283,10 +284,7 @@ This prevents **temporary fallow from being misclassified as abandonment**.
 
 📄 Documentation
 
-```
-Agents/DataSearch/DataSearch.md
-```
-
+[DataSearch](Agents/DataSearch/DataSearch.md)
 ### 🎯 Purpose
 
 Identify **Earth observation datasets** relevant to the research hypothesis.
