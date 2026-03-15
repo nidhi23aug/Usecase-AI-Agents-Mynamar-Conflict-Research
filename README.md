@@ -307,6 +307,21 @@ Identify **Earth observation datasets** relevant to the research hypothesis.
 * spatial suitability notes
 * access instructions
 
+## 📊 Tabular Summary (≥2 datasets)
+
+| Rank | Short Name                      | Concept ID        | Optical?                | 10 m Resolution? | Temporal Coverage          | Primary Metadata Mismatch        |
+|-----:|---------------------------------|------------------|-------------------------|------------------|-----------------------------|----------------------------------|
+| 1 | TerraScope Sentinel-2 L1C | C2207478568-FEDEO | Yes | Yes (10/20/60 m) | 2015-07-06 → 2021-12-31 | Does not reach 2025 |
+| 2 | TerraScope Sentinel-2 L2A TOC | C2207478523-FEDEO | Yes | Not explicit | 2015-07-06 → 2021-12-31 | 10 m not explicit |
+| 3 | ESA WorldCover 2020 | C2655129129-FEDEO | Derived optical | Yes | Placeholder 1970 (actual 2020) | Single-year map |
+| 4 | ESA WorldCover 2021 | C2655129178-FEDEO | Derived optical | Yes | Placeholder 1970 (actual 2021) | Single-year map |
+| 5 | WorldCover NDVI 2020 | C2770608964-FEDEO | Optical-derived | Yes | Placeholder 1970 | Single-year composite |
+| 6 | WorldCover NDVI 2021 | C2655128870-FEDEO | Optical-derived | Yes | Placeholder 1970 | Single-year composite |
+| 7 | WorldCereal Active Cropland | C2734302030-FEDEO | Derived cropland product | Not stated | Placeholder 1970 | Temporal span not specified |
+| 8 | Sentinel-2 L2A COG (INPE) | C3108204483-INPE | Yes | Not stated | 2019-01-10 → 2025-06-25 | Brazil-only |
+| 9 | Sentinel-2 L2A 16-Day Cube | C3108204485-INPE | Yes | Yes | 2017-01-01 → 2025-06-09 | Brazil-only |
+
+
 ---
 
 # 💻 6. AKD Code Search Agent
