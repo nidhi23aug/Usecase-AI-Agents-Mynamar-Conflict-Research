@@ -57,6 +57,11 @@ How has agricultural abandonment changed in conflict-affected parts of Myanmar a
 This repository is organized around a sequence of AI-agents and humans as its being done in conventional research.
 
 ### 1. Literature Search Agent [https://github.com/nidhi23aug/Lit-Search-Tool-Comparison] 
+Documents
+
+[LitSearch Using Google Lab](Agents/LitSearchAgent_Use/LitSearch_Using_Google_Labs.md)
+
+
 Purpose:
 - Identify the best AI-assisted literature retrieval tools available
 - Choose the Best AI- Assisted Lit Search tool for this study.
