@@ -1,4 +1,4 @@
-# 🌾🤖 AI Agentic Tool Use for Research work
+# AI Agentic Tool Use for Research work
 
 ## Studying Agricultural Abandonment in Conflict-Affected Myanmar
 
@@ -8,7 +8,7 @@ This project explores how **AI agents, remote sensing, and human scientific reas
 
 ---
 
-# 🧠 AI-Agentic Research Workflow
+# AI-Agentic Research Workflow
 
 This repository connects the entire scientific workflow:
 
@@ -22,58 +22,60 @@ However, **core scientific reasoning and implementation remain human-driven**.
 
 ---
 
-# ⚙️ End-to-End Research Pipeline
+# End-to-End Research Pipeline
 
 This repository is designed to move through the following stages:
 
-1️⃣ **AI-assisted literature search**
-*(Best available AI literature retrieval tools)*
+1. **AI-assisted literature search**
+*(Google Scholar Lab)*
 
-2️⃣ **Research gap identification**
+2. **Research gap identification**
 *(AKD GAP Agent)*
 
-3️⃣ **Hypothesis selection**
+3. **Hypothesis selection**
 *(AKD GAP Agent + Human decision)*
 
-4️⃣ **Code discovery and reuse**
-*(AKD Code Search Agent)*
+4. **Remote sensing data discovery**
+*(AKD Data Search Agent)*
 
-5️⃣**Method design**
+5. **Code discovery and reuse**
+*(AKD CMR Code Search Agent)*
+
+6. **Method design**
 *(Human-designed scientific methodology)*
 
-6️⃣ **Remote sensing data discovery**
-*(AKD CMR Data Search Agent)*
-
-7️⃣ **Implementation in Google Earth Engine (GEE)**
+7. **Implementation in Google Earth Engine (GEE)**
 *(Currently being implemented by Human)*
 
-8️⃣ **Inference reasoning (CARE framework)**
+8. **Generate the results and visualizations**
+*(Currently being implemented by Human)*
+**Scientific illustrations** [By AKD- Illustration Agent]]
+
+10. **Inference reasoning (CARE framework)**
 *(Future AI agent)*
 
-9️⃣ **Paper writing**
+11. **Paper writing**
+*(AI agent created using CARE)*
 
-🔟 **Scientific illustrations** [By AKD- Illustration Agent]]
+12. **Paper review**
 
-1️⃣1️⃣ **Paper review**
-
-1️⃣2️⃣ **Paper submission**
+13. **Paper submission**
 
 ---
 
-# 🌍 Project Motivation
+# Project Motivation
 
 Scientific Illustration using [AKD-Illustration Agent V2 ](https://github.com/NASA-IMPACT/AKD-Scientific-Illustration-Agent/blob/main/Version2/Readme_v2.md)
 
 <p align="center">
-<img src="WorkflowfromIllustrationagentV2.png" width="48%" style="height:400px; object-fit:contain;">
-&nbsp;
+<img width="1024" height="559" alt="Image from iOS (1)" src="https://github.com/user-attachments/assets/4586270e-5e82-4957-9e7f-d818ecd89781" />
 
 Agricultural abandonment is often studied in relation to:
 
-* 📉 economic change
-* 🌱 land-use transitions
-* 🚶 migration
-* 🌿 environmental recovery
+* economic change
+* land-use transitions
+* migration
+* environmental recovery
 
 However, **conflict-driven agricultural abandonment remains poorly quantified**.
 
@@ -92,7 +94,7 @@ Remote sensing offers a way to **monitor agricultural change even when field acc
 
 ---
 
-# 🎯 Core Research Theme
+# Core Research Theme
 
 **Topic:** Agricultural Land Abandonment (ALA)
 **Context:** Conflict-affected regions
@@ -100,13 +102,13 @@ Remote sensing offers a way to **monitor agricultural change even when field acc
 
 ---
 
-## 🔎 Core Research Question
+## Core Research Question
 
 > **How has agricultural abandonment changed in conflict-affected parts of Myanmar after the 2021 coup, and how can remote sensing combined with AI-assisted research workflows help detect these patterns?**
 
 ---
 
-# 🤖 AI Agent Pipeline
+# AI Agent Pipeline
 
 This repository contains **multiple research agents**, each performing a specific task.
 
@@ -114,23 +116,23 @@ The workflow integrates **AI automation with human scientific design**.
 
 ---
 
-# 📚 1. Literature Search Agent
+# 1. Literature Search Agent
 
 🔗 Benchmark repository
 [https://github.com/nidhi23aug/Lit-Search-Tool-Comparison](https://github.com/nidhi23aug/Lit-Search-Tool-Comparison)
 
-📂 Documentation
+Documentation
 
 ```
 Agents/LitSearchAgent_Use/LitSearch_Using_Google_Labs.md
 ```
 [LitSearch Using Google Lab](Agents/LitSearchAgent_Use/LitSearch_Using_Google_Labs.md) 
 
-### 🎯 Purpose
+### Purpose
 
 Identify and evaluate the **best AI-assisted literature retrieval tools**.
 
-### 🧠 Tasks
+### Tasks
 
 * Benchmark AI literature search tools
 * Generate structured research queries
@@ -138,13 +140,13 @@ Identify and evaluate the **best AI-assisted literature retrieval tools**.
 * Compare retrieval quality
 * Select a working corpus of papers
 
-### 📥 Input
+### Input
 
 * research prompts
 * AI literature retrieval tools
 * structured query templates
 
-### 📤 Output
+### Output
 
 * curated paper list
 * literature summaries
@@ -167,31 +169,31 @@ Identify and evaluate the **best AI-assisted literature retrieval tools**.
 
 ---
 
-# 🧩 2. AKD GAP Search Agent
+# 2. AKD GAP Search Agent
 
-📂 Directory
+Directory
 
 ```
 Agents/GapAgents/
 ```
 
-📄 Documentation
+Documentation
 
 * [Gap Agent NJ](Agents/GapAgents/GapAgent_AKD_NJ.md)
 * [Gap Agent Sid](Agents/GapAgents/Gap_Gemini_Sid.md)
 
-### 🎯 Purpose
+### Purpose
 
 Analyze the literature corpus and identify **research gaps**.
 
-### 🔍 Focus Areas
+### Focus Areas
 
 * abandonment during active conflict
 * post-coup agricultural change in Myanmar
 * remote sensing indicators of forced abandonment
 * validation challenges in inaccessible regions
 
-### 📤 Outputs
+### Outputs
 
 * research gap map
 * candidate research questions
@@ -200,9 +202,9 @@ Analyze the literature corpus and identify **research gaps**.
 
 ---
 
-# 🧪 3. Hypothesis Development
+# 3. Hypothesis Development
 
-### 🎯 Purpose
+### Purpose
 
 Define a **testable research hypothesis** based on identified gaps.
 
@@ -240,11 +242,11 @@ H₁ — Persistence differs in conflict-affected areas.
 
 ---
 
-# 💻 4. AKD Code Search Agent- Existing Code 
+# 4. AKD Code Search Agent- Existing Code 
 
 [Code Search Documentation](https://github.com/nidhi23aug/Usecase-AI-Agents-Mynamar-Conflict-Research/blob/main/Agents/CodeSearch/CodeSearchAgent.md)
 
-### 🎯 Purpose
+### Purpose
 
 Identify reusable code for:
 * cropland persistence detection
@@ -253,14 +255,14 @@ Identify reusable code for:
 * SAR-optical fusion
 * conflict-sensitive geospatial analysis
 
-### 📤 Outputs
+### Outputs
 
 * reusable code inventory
 * adaptation plan
 * implementation notes
 * risk assessment
 
-## 📦 Repository Resources for the Workflow
+## Repository Resources for the Workflow
 
 | Rank | Initial Repository Searches (Foundation Models / Geospatial ML) | Repository (When Moving to Google Earth Engine) | When Used / Decision Context |
 |-----:|---------------------------------------------------------------|------------------------------------------------|------------------------------|
@@ -273,7 +275,7 @@ Identify reusable code for:
 
 ---
 
-## ⚠️ Implementation Decision: Why Google Earth Engine (GEE)?
+## Implementation Decision: Why Google Earth Engine (GEE)?
 
 During the initial exploration phase, several repositories and workflows related to **geospatial foundation models (FM)** were evaluated, including Prithvi-EO and other Earth observation ML frameworks.
 
@@ -291,15 +293,15 @@ Because of these practical considerations, **Google Earth Engine was chosen as t
 
 ---
 
-# 🧑‍🔬 5. Human-Led Method Design
+# 5. Human-Led Method Design
 
-⚠️ **This stage is designed and implemented by human researchers.**
+**This stage is designed and implemented by human researchers.**
 
 Agents assist with discovery, but **scientific methodology remains human-driven**.
 
 ---
 
-### 🛰 Representation of Landscape Structure
+### Representation of Landscape Structure
 
 High-dimensional **Google AlphaEarth embeddings** represent landscape structure in satellite imagery.
 
@@ -307,7 +309,7 @@ These embeddings provide a **generalized representation of land-surface signals*
 
 ---
 
-### 🤖 Cross-Regional Machine Learning Transfer
+### Cross-Regional Machine Learning Transfer
 
 A supervised machine learning model is trained using **labeled abandonment samples from Mongolia and China**.
 
@@ -317,7 +319,7 @@ This enables analysis in **data-scarce regions without retraining**.
 
 ---
 
-### 🌱 Persistence-Based Definition of Abandonment
+### Persistence-Based Definition of Abandonment
 
 Agricultural land is classified as abandoned only if **uncultivated for three consecutive years**.
 
@@ -331,12 +333,12 @@ This prevents **temporary fallow from being misclassified as abandonment**.
 
 ---
 
-# 🛰 6. AKD CMR Data Search Agent
+# 6. AKD CMR Data Search Agent
 
-📄 Documentation
+Documentation
 
 [DataSearch](Agents/DataSearch/DataSearch.md)
-### 🎯 Purpose
+### Purpose
 
 Identify **Earth observation datasets** relevant to the research hypothesis.
 
@@ -349,14 +351,14 @@ Identify **Earth observation datasets** relevant to the research hypothesis.
 * land cover datasets
 * conflict exposure layers
 
-### 📤 Outputs
+### Outputs
 
 * dataset inventory
 * temporal coverage summary
 * spatial suitability notes
 * access instructions
 
-## 📊 Tabular Summary (≥2 datasets)
+## Tabular Summary (≥2 datasets)
 
 | Rank | Short Name                      | Concept ID        | Optical?                | 10 m Resolution? | Temporal Coverage          | Primary Metadata Mismatch        |
 |-----:|---------------------------------|------------------|-------------------------|------------------|-----------------------------|----------------------------------|
@@ -373,11 +375,11 @@ Identify **Earth observation datasets** relevant to the research hypothesis.
 
 ---
 
-# 🌐 7. Google Earth Engine Implementation
+# 7. Google Earth Engine Implementation
 
 ### *(Human-Implemented Stage)*
 
-👨‍💻 **Lead Implementation**
+**Lead Implementation**
 
 **Zaw Thu Htet (Toby)**
 Istituto Universitario di Studi Superiori
@@ -398,9 +400,9 @@ Goal: produce a **reproducible high-resolution agricultural abandonment analysis
 
 ---
 
-# 🧠 8. CARE Inference Agent *(Future)*
+# 8. CARE Inference Agent *(Future)*
 
-### 🎯 Purpose
+### Purpose
 
 Move beyond detection toward **causal inference and reasoning**.
 
@@ -415,34 +417,34 @@ Status: **conceptual / exploratory**
 
 ---
 
-# 🇲🇲 Case Study: Myanmar After the 2021 Coup
+# Case Study: Myanmar After the 2021 Coup
 
 Myanmar is chosen because it combines:
 
-* ⚡ rapid political rupture
-* 🔥 spatially heterogeneous conflict
-* 🚜 agricultural disruption
-* 🚧 limited field access
-* 🛰 strong need for satellite monitoring
+* rapid political rupture
+* spatially heterogeneous conflict
+* agricultural disruption
+* limited field access
+* strong need for satellite monitoring
 
 This makes Myanmar a **scientifically challenging and important case study**.
 
 ---
 
-# 🎯 Initial Research Goals
+# Initial Research Goals
 
-1️⃣ Build an AI-assisted literature discovery workflow
-2️⃣ Construct a focused abandonment research corpus
-3️⃣ Identify research gaps using AI agents
-4️⃣ Convert gaps into remote-sensing hypotheses
-5️⃣ Identify suitable Earth observation datasets
-6️⃣ Locate reusable geospatial code
-7️⃣ Implement the analysis in Google Earth Engine
-8️⃣ Document uncertainty and limitations
+1. Build an AI-assisted literature discovery workflow
+2. Construct a focused abandonment research corpus
+3. Identify research gaps using AI agents
+4. Convert gaps into remote-sensing hypotheses
+5. Identify suitable Earth observation datasets
+6. Locate reusable geospatial code
+7. Implement the analysis in Google Earth Engine
+8. Document uncertainty and limitations
 
 ---
 
-# 📂 Repository Structure
+# Repository Structure
 
 ```
 Agents/
@@ -464,15 +466,15 @@ README.md
 
 ---
 
-# 🚀 Long-Term Vision
+# Long-Term Vision
 
 This project explores how **AI agents can augment scientific research workflows** by assisting with:
 
-* literature exploration 📚
-* gap discovery 🔍
-* dataset identification 🛰
-* code reuse 💻
-* workflow automation ⚙️
+* literature exploration 
+* gap discovery 
+* dataset identification 
+* code reuse 
+* workflow automation 
 
 The goal is **not to replace scientists**, but to create **AI-assisted research pipelines that accelerate discovery while keeping humans in the loop**.
 
